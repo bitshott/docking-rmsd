@@ -24,3 +24,6 @@ RMSD_PACKING:
 
 REMOVE_SDF_DIR:
 	@rm -r $(SDF_DIR)
+
+REMOVE_FILTERED_SDF:
+	@rm *_package.sdf
