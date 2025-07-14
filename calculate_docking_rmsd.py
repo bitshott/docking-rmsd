@@ -32,8 +32,7 @@ print(sdf_files)
 ref_csv = [file for temp in os.walk(data_csv) for file in temp[2]]
 
 id_best_rmsd = dict()
-ref_ligand = glob.glob(args.ref_ligand)
-ref_mol = Chem.MolFromPDBFile(ref_ligand[0])
+ref_mol = Chem.MolFromPDBFile(args.ref_ligand)
 
 csv = f'{workspace_dir.split("/")[-1].split("_")[0]}.csv'
 df = pd.read_csv(data_csv + "/" + csv, names=['id'])

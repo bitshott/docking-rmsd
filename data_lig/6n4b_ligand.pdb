@@ -1,0 +1,60 @@
+CRYST1    1.000    1.000    1.000  90.00  90.00  90.00 P 1           1
+HETATM    1  N   KCA R 501      -1.591   6.380  11.132  1.00140.63           N  
+HETATM    2  CA  KCA R 501      -1.036   7.460  11.972  1.00140.63           C  
+HETATM    3  CAB KCA R 501      -0.808   5.343  10.820  1.00140.63           C  
+HETATM    4  CAG KCA R 501      -1.387   6.223  15.530  1.00140.63           C  
+HETATM    5  CAL KCA R 501      -3.404   8.547  12.249  1.00140.63           C  
+HETATM    6  CAM KCA R 501      -1.381   4.380  10.065  1.00140.63           C  
+HETATM    7  CAP KCA R 501      -4.058   2.925   8.229  1.00140.63           C  
+HETATM    8  CAQ KCA R 501      -4.795   2.135   9.111  1.00140.63           C  
+HETATM    9  CAR KCA R 501      -4.322   1.556  10.275  1.00140.63           C  
+HETATM   10  CAS KCA R 501      -5.121   0.785  11.085  1.00140.63           C  
+HETATM   11  CAT KCA R 501      -6.442   0.599  10.726  1.00140.63           C  
+HETATM   12  CAV KCA R 501      -6.962   1.158   9.587  1.00140.63           C  
+HETATM   13  CAW KCA R 501      -6.089   1.897   8.842  1.00140.63           C  
+HETATM   14  CAX KCA R 501      -1.724   2.665   8.826  1.00140.63           C  
+HETATM   15  CAY KCA R 501      -0.808   3.280   9.559  1.00140.63           C  
+HETATM   16  CAZ KCA R 501       0.405   2.747   9.651  1.00140.63           C  
+HETATM   17  C   KCA R 501      -0.790   6.942  13.414  1.00140.63           C  
+HETATM   18  O   KCA R 501       0.381   6.753  13.746  1.00140.63           O  
+HETATM   19  NAN KCA R 501      -2.643   4.443   9.656  1.00140.63           N  
+HETATM   20  NAO KCA R 501      -2.849   3.364   8.901  1.00140.63           N  
+HETATM   21  OAA KCA R 501       0.385   5.347  11.138  1.00140.63           O  
+HETATM   22  OAF KCA R 501      -1.839   6.662  14.235  1.00140.63           O  
+HETATM   23  CB  KCA R 501      -1.936   8.711  11.828  1.00140.63           C  
+HETATM   24  CBA KCA R 501       0.720   1.564   9.022  1.00140.63           C  
+HETATM   25  CBB KCA R 501      -0.259   0.924   8.286  1.00140.63           C  
+HETATM   26  CBC KCA R 501      -1.509   1.505   8.213  1.00140.63           C  
+HETATM   27  CG1 KCA R 501      -1.291   9.856  12.593  1.00140.63           C  
+HETATM   28  CG2 KCA R 501      -1.960   9.054  10.342  1.00140.63           C  
+HETATM   29  FAU KCA R 501      -7.097  -0.010  11.367  1.00140.63           F  
+CONECT    1    2    3
+CONECT    2    1   17   23
+CONECT    3    1    6   21
+CONECT    4   22
+CONECT    5   23
+CONECT    6    3   15   19
+CONECT    7    8   20
+CONECT    8    7    9   13
+CONECT    9    8   10
+CONECT   10    9   11
+CONECT   11   10   12   29
+CONECT   12   11   13
+CONECT   13    8   12
+CONECT   14   15   20   26
+CONECT   15    6   14   16
+CONECT   16   15   24
+CONECT   17    2   18   22
+CONECT   18   17
+CONECT   19    6   20
+CONECT   20    7   14   19
+CONECT   21    3
+CONECT   22    4   17
+CONECT   23    2    5   27   28
+CONECT   24   16   25
+CONECT   25   24   26
+CONECT   26   14   25
+CONECT   27   23
+CONECT   28   23
+CONECT   29   11
+END

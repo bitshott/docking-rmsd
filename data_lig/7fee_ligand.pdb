@@ -1,0 +1,56 @@
+CRYST1   43.790   74.330  184.200  90.00  90.00  90.00 P 2 21 21     1
+HETATM    1  CAA 9GF A1203      -0.718  -4.658  10.354  1.00 71.88           C  
+HETATM    2  CAB 9GF A1203       0.048  -4.280   9.086  1.00 71.15           C  
+HETATM    3  CAC 9GF A1203       0.304  -2.777   8.989  1.00 70.66           C  
+HETATM    4  CAD 9GF A1203      -0.357  -2.148   7.762  1.00 67.31           C  
+HETATM    5  CAE 9GF A1203      -0.151  -0.634   7.709  1.00 67.52           C  
+HETATM    6  CAF 9GF A1203      -1.457   0.138   7.918  1.00 66.63           C  
+HETATM    7  CAG 9GF A1203      -1.277   1.600   8.340  1.00 67.41           C  
+HETATM    8  CAH 9GF A1203      -1.801   2.510   7.233  1.00 64.91           C  
+HETATM    9  CAI 9GF A1203       0.191   1.922   8.606  1.00 68.73           C  
+HETATM   10  CAJ 9GF A1203      -2.052   1.865   9.630  1.00 69.55           C  
+HETATM   11  CAK 9GF A1203      -2.982   0.947  10.097  1.00 69.29           C  
+HETATM   12  CAL 9GF A1203      -3.671   1.196  11.274  1.00 71.44           C  
+HETATM   13  CAM 9GF A1203      -3.438   2.368  11.979  1.00 73.06           C  
+HETATM   14  CAN 9GF A1203      -4.182   2.685  13.289  1.00 75.65           C  
+HETATM   15  CAO 9GF A1203      -3.241   2.330  14.446  1.00 77.76           C  
+HETATM   16  CAP 9GF A1203      -3.892   2.560  15.809  1.00 81.42           C  
+HETATM   17  CAR 9GF A1203      -5.215   1.793  15.930  1.00 81.94           C  
+HETATM   18  CAS 9GF A1203      -6.172   2.097  14.776  1.00 78.94           C  
+HETATM   19  CAT 9GF A1203      -5.530   1.945  13.392  1.00 76.38           C  
+HETATM   20  CAU 9GF A1203      -6.533   2.514  12.373  1.00 74.84           C  
+HETATM   21  CAV 9GF A1203      -7.675   1.540  12.082  1.00 74.10           C  
+HETATM   22  CAW 9GF A1203      -7.261   0.452  11.093  1.00 71.53           C  
+HETATM   23  CAY 9GF A1203      -2.507   3.281  11.513  1.00 72.26           C  
+HETATM   24  OAQ 9GF A1203      -3.015   2.117  16.818  1.00 84.94           O  
+HETATM   25  OAX 9GF A1203      -8.412  -0.192  10.624  1.00 72.12           O  
+HETATM   26  OAZ 9GF A1203      -2.266   4.461  12.231  1.00 74.50           O  
+HETATM   27  CBA 9GF A1203      -1.816   3.028  10.341  1.00 70.35           C  
+CONECT    1    2
+CONECT    2    1    3
+CONECT    3    2    4
+CONECT    4    3    5
+CONECT    5    4    6
+CONECT    6    5    7
+CONECT    7    6    8    9   10
+CONECT    8    7
+CONECT    9    7
+CONECT   10    7   11   27
+CONECT   11   10   12
+CONECT   12   11   13
+CONECT   13   12   14   23
+CONECT   14   13   15   19
+CONECT   15   14   16
+CONECT   16   15   17   24
+CONECT   17   16   18
+CONECT   18   17   19
+CONECT   19   14   18   20
+CONECT   20   19   21
+CONECT   21   20   22
+CONECT   22   21   25
+CONECT   23   13   26   27
+CONECT   24   16
+CONECT   25   22
+CONECT   26   23
+CONECT   27   10   23
+END
